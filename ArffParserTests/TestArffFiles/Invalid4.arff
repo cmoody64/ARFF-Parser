@@ -1,0 +1,16 @@
+﻿%   Description
+%	Header Info
+%
+%
+@RELATION cars
+
+@ATTRIBUTE	buying    %comment   { vhigh, high, med, low }%comment
+@ATTRIBUTE price NUMERIC       
+@ATTRIBUTE miles numeric
+@ATTRIBUTE make STRING
+@ATTRIBUTE purchaseDate DATE
+
+@DATA
+vhigh,unacc,10000,25000,honda,12/2/2015
+vhigh,unacc,12000,ford,12/2/2015 %incomplete data line
+high,good,9000,25000,toyota,12/2/2015
